@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: arial, tahoma, sans-serif;
+    font-weight: normal;
+    direction: ltr;
+    background: white;
+  }
+  
+  h3 {
+    align-items: center;
+    font-size: 28px;
+  }
+  .mainForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    background-color: #b0c4de;
+  }
+  form {
+    align-items: center;
+    margin: 4% auto 0 auto;
+    padding: 2rem;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  form label {
+    font-size: 14px;
+    color: darkgray;
+    cursor: pointer;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    margin: 14px;
+  }
+  form label,
+  form input {
+    float: left;
+    clear: both;
+  }
+  
+  form input,
+  select {
+    margin: 10px 0;
+    padding: 15px 10px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  
+  .radio {
+    display: flex;
+    padding: 5px 10px;
+    width: 40%;
+    align-items: center;
+  }
+  
+  form input[type="text"]:focus {
+    border-color: cornflowerblue;
+  }
+  
+  input[type="submit"] {
+    padding: 15px 50px;
+    width: auto;
+    background: #1abc9c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .btn {
+    padding: 15px 50px;
+    width: auto;
+    background: #1abc9c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2rem;
+  }
+  .btn:hover {
+    opacity: 0.8;
+  }
+  .btn:active {
+    opacity: 0.4;
+  }
